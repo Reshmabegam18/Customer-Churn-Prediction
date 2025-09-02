@@ -1,47 +1,87 @@
-📌 Project Overview
+Customer Churn Prediction for Subscription Businesses
 
-This project focuses on predicting customer churn (whether a customer will leave or stay) in a subscription-based business using the Telco Customer Churn dataset.
+This project predicts whether a customer will churn (leave) or stay in a subscription-based business using the Telco Customer Churn dataset. The goal is to help businesses understand customer behavior, identify high-risk churn factors, and design effective retention strategies.
 
-The goal is to help businesses:
+📌 Features
 
-Identify customers at risk of leaving.
+Public dataset: Telco Customer Churn (Kaggle)
 
-Understand churn drivers like tenure, billing, and contract type.
+Data cleaning and preprocessing (handling missing values, encoding categorical variables)
 
-Develop strategies to improve customer retention.
+Exploratory Data Analysis (EDA) with visualizations
 
-🛠 Tools & Libraries
+Machine Learning models: Logistic Regression and Decision Tree
 
-Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+Model evaluation using accuracy (~80–81%)
 
-Models: Logistic Regression, Decision Tree
+Feature importance analysis to identify churn drivers
+
+Business recommendations for customer retention
+
+📂 Project Structure
+customer-churn-prediction/
+├── data/
+│   └── telco_dataset.csv
+├── notebooks/
+│   └── Customer_Churn_Prediction.ipynb
+├── README.md
+├── requirements.txt
+
+🛠 Tools & Technologies
+
+Python
+
+Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 
 IDE: Jupyter Notebook
 
-🔄 Workflow
+🚀 How to Use
 
-Data Cleaning & Preprocessing – removed null values, encoded categorical variables.
+Clone the repository
 
-Exploratory Data Analysis (EDA) – visualized churn patterns across contracts, tenure, and charges.
+git clone https://github.com/Reshmabegam18/Customer-Churn-Prediction.git
 
-Model Building – trained Logistic Regression and Decision Tree models.
 
-Evaluation – achieved ~80–81% accuracy.
+Navigate to the project folder
 
-Feature Importance – identified high-risk churn drivers.
+cd Customer-Churn-Prediction
 
-🔑 Key Insights
 
-Customers with month-to-month contracts are more likely to churn.
+Install required packages
 
-New users (short tenure) tend to leave faster.
+pip install -r requirements.txt
 
-High monthly charges increase churn probability.
 
-💡 Business Recommendations
+Open the Jupyter Notebook
 
-Offer discounts to new or high-bill customers.
+jupyter notebook notebooks/Customer_Churn_Prediction.ipynb
 
-Promote long-term contracts to reduce churn risk.
 
-Provide value-added services (e.g., tech support, online security) to boost retention.
+Run all cells to train the model and view results
+
+📊 Outcome
+
+Predicts customer churn (Yes/No) with ~80% accuracy
+
+Identified churn drivers:
+
+Month-to-month contracts
+
+Short tenure (new customers)
+
+High monthly charges
+
+Business recommendations:
+
+Encourage long-term contracts
+
+Offer discounts to new/high-bill customers
+
+Promote value-added services (Tech Support, Online Security)
+
+👩‍💻 Author
+
+Reshma Begam
+Data Analyst | Data Science Enthusiast
+
+📧 Email: reshmabegam1807@gmail.com
