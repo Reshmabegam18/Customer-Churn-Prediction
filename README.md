@@ -1,87 +1,25 @@
-Customer Churn Prediction for Subscription Businesses
+# Customer Churn Prediction
 
-This project predicts whether a customer will churn (leave) or stay in a subscription-based business using the Telco Customer Churn dataset. The goal is to help businesses understand customer behavior, identify high-risk churn factors, and design effective retention strategies.
+This project predicts whether a customer will churn (leave) or stay with a subscription service using the Telco Customer Churn dataset.
 
-📌 Features
+## 🚀 What I Did
+- Cleaned and preprocessed the dataset (handled nulls, encoded categorical variables)  
+- Performed Exploratory Data Analysis (EDA) to identify churn patterns  
+- Built and compared Logistic Regression and Decision Tree models (~80% accuracy)  
+- Analyzed feature importance to highlight the biggest drivers of churn  
+- Proposed business recommendations to reduce churn (e.g., discounts, longer contracts)
 
-Public dataset: Telco Customer Churn (Kaggle)
+## 📊 Key Insights  
+- Month-to-month contract customers have higher risk of churn  
+- New customers (shorter tenure) are more likely to churn  
+- High monthly charges are correlated with churn risk  
 
-Data cleaning and preprocessing (handling missing values, encoding categorical variables)
+## 🛠️ Tools & Tech  
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook
 
-Exploratory Data Analysis (EDA) with visualizations
-
-Machine Learning models: Logistic Regression and Decision Tree
-
-Model evaluation using accuracy (~80–81%)
-
-Feature importance analysis to identify churn drivers
-
-Business recommendations for customer retention
-
-📂 Project Structure
-customer-churn-prediction/
-├── data/
-│   └── telco_dataset.csv
-├── notebooks/
-│   └── Customer_Churn_Prediction.ipynb
-├── README.md
-├── requirements.txt
-
-🛠 Tools & Technologies
-
-Python
-
-Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-
-IDE: Jupyter Notebook
-
-🚀 How to Use
-
-Clone the repository
-
+## 🔧 Setup and Run  
+```bash
 git clone https://github.com/Reshmabegam18/Customer-Churn-Prediction.git
-
-
-Navigate to the project folder
-
 cd Customer-Churn-Prediction
-
-
-Install required packages
-
 pip install -r requirements.txt
-
-
-Open the Jupyter Notebook
-
 jupyter notebook notebooks/Customer_Churn_Prediction.ipynb
-
-
-Run all cells to train the model and view results
-
-📊 Outcome
-
-Predicts customer churn (Yes/No) with ~80% accuracy
-
-Identified churn drivers:
-
-Month-to-month contracts
-
-Short tenure (new customers)
-
-High monthly charges
-
-Business recommendations:
-
-Encourage long-term contracts
-
-Offer discounts to new/high-bill customers
-
-Promote value-added services (Tech Support, Online Security)
-
-👩‍💻 Author
-
-Reshma Begam
-Data Analyst | Data Science Enthusiast
-
-📧 Email: reshmabegam1807@gmail.com
